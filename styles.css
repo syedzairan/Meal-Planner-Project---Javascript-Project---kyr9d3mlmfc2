@@ -1,1 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+  box-sizing: border-box;
+}
+main{
+  /* background-color: aqua; */
+  /* height: 100vh; */
+}
+.tab{
+  /* background-color: rgb(255, 0, 60);
+  box-shadow: 20px 20px  20px 0px gray;
+  margin: 0px 20px 20px 0px; */
+}
+nav{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 40px;                                           /*       */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+    z-index: 999;
+    transition: 0.6s;
+    background-color: black;                             /*      */
+  }
+  .nav-h{
+    margin-top: 0px;
+    padding-left: 30px;
+    color: white;
+    font-style: italic;
+    font-family: Cursive;
+    text-decoration:underline;
+    font-family:  fantasy;
+  }
 
+  .first{
+    width: 100%;
+    height:100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .form-second{
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /*  */
+  }
+  .form-third{
+    height:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.d-inline-block{
+    width: 100px;
+    height: 50px;
+    object-fit: cover;
+}
+.selector-for-some-widget {
+    box-sizing: content-box;
+}
+
+input{
+   border-radius: 15px;
+   border: solid #888888;
+   padding: 5px;
+   background-color: rgb(232, 224, 224);
+}
+.gender{
+  padding: 10px;
+  border-radius: 15px;
+  background-color: rgb(232, 224, 224);
+}
+.mode{
+    padding: 10px;
+    border-radius: 15px;
+    background-color: rgb(232, 224, 224);
+  }
+.mybtn{
+  background-color: black;                      /*           */ 
+  padding: 3px;
+  color: white;
+  border-radius: 15px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+button:hover{
+    background-color: green;
+    color: white;
+    padding: 10px;
+}
+button:active{
+    background-color: lightgreen;
+}
+
+#card {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+#form{
+    padding-top: 40px;
+    /* background-image: url('https://thumbs.dreamstime.com/b/assorted-indian-recipes-food-various-spices-rice-wooden-table-92742528.jpg'); */
+}
+
+.cards{
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  color: black; 
+  background-color: white;
+  border-radius: 15px;
+  border: 1px solid transparent;
+  box-shadow: 5px 1px 18px #888888;
+  padding-bottom: 20px;
+}
+@media (max-width: 300px) {
+  .card{
+    display: flex;
+    flex-direction: column;
+  }
+}
+.top{
+  text-align: center;
+  padding-top: 10px;
+}
+.card-title{
+    width: 180px;
+    height: 56px;
+    overflow: hidden;
+    position: relative;
+    text-overflow: ellipsis;
+}
+.btn2{
+  background-color: red;
+  color: white;
+  padding: 5px;
+  border-radius: 15px;
+
+}
+#recepi{
+  margin-top: 10px;
+}
+
+.card-body{
+  background-color: black;                                   /*          */            
+   color: white;
+}
+
+.footer{
+  background-color: lightblue;
+  margin-top: 5px;
+  margin-left: 112px;
+  margin-right: 112px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  position: relative;
+  text-overflow: ellipsis;
+  border-radius: 5px;
+  box-shadow: 5px 1px 18px #888888;
+  color: black;
+}
+ul{
+  display: flex;
+  justify-content: space-around;
+}
